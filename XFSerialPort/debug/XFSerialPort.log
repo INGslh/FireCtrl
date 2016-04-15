@@ -1,0 +1,223 @@
+﻿生成启动时间为 2016/4/14 19:21:06。
+     1>项目“F:\Qt\project\XFSerialPort\XFSerialPort.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         F:\visual studio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\XFSerialPort.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib /LIBPATH:C:/Qt/Qt5.5.1/5.5/msvc2013_64/lib C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib\qtmaind.lib shell32.lib C:/Qt/Qt5.5.1/5.5/msvc2013_64/lib\Qt5Cored.lib C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\XFSerialPort.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\main.obj
+         debug\xfserialport.obj
+         debug\moc_xfserialport.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::show(void)" (__imp_?show@QWidget@@QEAAXXZ)，该符号在函数 main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QApplication::QApplication(int &,char * *,int)" (__imp_??0QApplication@@QEAA@AEAHPEAPEADH@Z)，该符号在函数 main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QApplication::~QApplication(void)" (__imp_??1QApplication@@UEAA@XZ)，该符号在函数 main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static int __cdecl QApplication::exec(void)" (__imp_?exec@QApplication@@SAHXZ)，该符号在函数 main 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QWidget::QWidget(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QWidget::~QWidget(void)" (__imp_??1QWidget@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QWidget::`scalar deleting destructor'(unsigned int)" (??_GQWidget@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::setWindowTitle(class QString const &)" (__imp_?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::retranslateUi(class QDialog *)" (?retranslateUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::resize(int,int)" (__imp_?resize@QWidget@@QEAAXHH@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::setGeometry(class QRect const &)" (__imp_?setGeometry@QWidget@@QEAAXAEBVQRect@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QDialog::QDialog(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QDialog@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，该符号在函数 "public: __cdecl xfserialport::xfserialport(class QWidget *)" (??0xfserialport@@QEAA@PEAVQWidget@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QDialog::~QDialog(void)" (__imp_??1QDialog@@UEAA@XZ)，该符号在函数 "public: virtual __cdecl xfserialport::~xfserialport(void)" (??1xfserialport@@UEAA@XZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QSerialPort::QSerialPort(class QString const &,class QObject *)" (__imp_??0QSerialPort@@QEAA@AEBVQString@@PEAVQObject@@@Z)，该符号在函数 "public: __cdecl xfserialport::xfserialport(class QWidget *)" (??0xfserialport@@QEAA@PEAVQWidget@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QSerialPort::~QSerialPort(void)" (__imp_??1QSerialPort@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QSerialPort::`scalar deleting destructor'(unsigned int)" (??_GQSerialPort@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __cdecl QSerialPort::setBaudRate(int,class QFlags<enum QSerialPort::Direction>)" (__imp_?setBaudRate@QSerialPort@@QEAA_NHV?$QFlags@W4Direction@QSerialPort@@@@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __cdecl QSerialPort::setDataBits(enum QSerialPort::DataBits)" (__imp_?setDataBits@QSerialPort@@QEAA_NW4DataBits@1@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __cdecl QSerialPort::setParity(enum QSerialPort::Parity)" (__imp_?setParity@QSerialPort@@QEAA_NW4Parity@1@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __cdecl QSerialPort::setStopBits(enum QSerialPort::StopBits)" (__imp_?setStopBits@QSerialPort@@QEAA_NW4StopBits@1@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __cdecl QSerialPort::setFlowControl(enum QSerialPort::FlowControl)" (__imp_?setFlowControl@QSerialPort@@QEAA_NW4FlowControl@1@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QLineEdit::QLineEdit(class QWidget *)" (__imp_??0QLineEdit@@QEAA@PEAVQWidget@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QLineEdit::~QLineEdit(void)" (__imp_??1QLineEdit@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QLineEdit::`scalar deleting destructor'(unsigned int)" (??_GQLineEdit@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __cdecl QLineEdit::text(void)const " (__imp_?text@QLineEdit@@QEBA?AVQString@@XZ)，该符号在函数 "private: void __cdecl xfserialport::on_BtnSend_clicked(void)" (?on_BtnSend_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QAbstractButton::setText(class QString const &)" (__imp_?setText@QAbstractButton@@QEAAXAEBVQString@@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QPushButton::QPushButton(class QWidget *)" (__imp_??0QPushButton@@QEAA@PEAVQWidget@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QPushButton::~QPushButton(void)" (__imp_??1QPushButton@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QPushButton::`scalar deleting destructor'(unsigned int)" (??_GQPushButton@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QTextEdit::QTextEdit(class QWidget *)" (__imp_??0QTextEdit@@QEAA@PEAVQWidget@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QTextEdit::~QTextEdit(void)" (__imp_??1QTextEdit@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QTextEdit::`scalar deleting destructor'(unsigned int)" (??_GQTextEdit@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QTextEdit::append(class QString const &)" (__imp_?append@QTextEdit@@QEAAXAEBVQString@@@Z)，该符号在函数 "private: void __cdecl xfserialport::on_BtnOpen_clicked(void)" (?on_BtnOpen_clicked@xfserialport@@AEAAXXZ) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QLayout::setContentsMargins(int,int,int,int)" (__imp_?setContentsMargins@QLayout@@QEAAXHHHH@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QBoxLayout::addWidget(class QWidget *,int,class QFlags<enum Qt::AlignmentFlag>)" (__imp_?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QBoxLayout::setSpacing(int)" (__imp_?setSpacing@QBoxLayout@@QEAAXH@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QVBoxLayout::QVBoxLayout(class QWidget *)" (__imp_??0QVBoxLayout@@QEAA@PEAVQWidget@@@Z)，该符号在函数 "public: void __cdecl Ui_xfserialport::setupUi(class QDialog *)" (?setupUi@Ui_xfserialport@@QEAAXPEAVQDialog@@@Z) 中被引用
+     1>xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QVBoxLayout::~QVBoxLayout(void)" (__imp_??1QVBoxLayout@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl QVBoxLayout::`scalar deleting destructor'(unsigned int)" (??_GQVBoxLayout@@UEAAPEAXI@Z) 中被引用
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QDialog::accept(void)" (?accept@QDialog@@UEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QBoxLayout::addItem(class QLayoutItem *)" (?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::atEnd(void)const " (?atEnd@QSerialPort@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __cdecl QSerialPort::bytesAvailable(void)const " (?bytesAvailable@QSerialPort@@UEBA_JXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __cdecl QSerialPort::bytesToWrite(void)const " (?bytesToWrite@QSerialPort@@UEBA_JXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QTextEdit::canInsertFromMimeData(class QMimeData const *)const " (?canInsertFromMimeData@QTextEdit@@MEBA_NPEBVQMimeData@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::canReadLine(void)const " (?canReadLine@QSerialPort@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::changeEvent(class QEvent *)" (?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::changeEvent(class QEvent *)" (?changeEvent@QLineEdit@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::changeEvent(class QEvent *)" (?changeEvent@QTextEdit@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::checkStateSet(void)" (?checkStateSet@QAbstractButton@@MEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLayout::childEvent(class QChildEvent *)" (?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QSerialPort::close(void)" (?close@QSerialPort@@UEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QDialog::closeEvent(class QCloseEvent *)" (?closeEvent@QDialog@@MEAAXPEAVQCloseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::closeEvent(class QCloseEvent *)" (?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QDialog::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QDialog@@MEAAXPEAVQContextMenuEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLineEdit@@MEAAXPEAVQContextMenuEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QTextEdit@@MEAAXPEAVQContextMenuEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum QSizePolicy::ControlType> __cdecl QLayout::controlTypes(void)const " (?controlTypes@QLayout@@UEBA?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QBoxLayout::count(void)const " (?count@QBoxLayout@@UEBAHXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QMimeData * __cdecl QTextEdit::createMimeDataFromSelection(void)const " (?createMimeDataFromSelection@QTextEdit@@MEBAPEAVQMimeData@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::devType(void)const " (?devType@QWidget@@UEBAHXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::doSetTextCursor(class QTextCursor const &)" (?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QDialog::done(int)" (?done@QDialog@@UEAAXH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QLineEdit@@MEAAXPEAVQDragMoveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QTextEdit@@MEAAXPEAVQDragMoveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dropEvent(class QDropEvent *)" (?dropEvent@QLineEdit@@MEAAXPEAVQDropEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::dropEvent(class QDropEvent *)" (?dropEvent@QTextEdit@@MEAAXPEAVQDropEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QLineEdit::event(class QEvent *)" (?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QPushButton::event(class QEvent *)" (?event@QPushButton@@MEAA_NPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QTextEdit::event(class QEvent *)" (?event@QTextEdit@@MEAA_NPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::event(class QEvent *)" (?event@QWidget@@MEAA_NPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QAbstractScrollArea::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QAbstractScrollArea@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QDialog::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QDialog::exec(void)" (?exec@QDialog@@UEAAHXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum Qt::Orientation> __cdecl QBoxLayout::expandingDirections(void)const " (?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::focusInEvent(class QFocusEvent *)" (?focusInEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::focusInEvent(class QFocusEvent *)" (?focusInEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QTextEdit::focusNextPrevChild(bool)" (?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MEAA_N_N@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QRect __cdecl QLayout::geometry(void)const " (?geometry@QLayout@@UEBA?AVQRect@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QBoxLayout::hasHeightForWidth(void)const " (?hasHeightForWidth@QBoxLayout@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QWidget::hasHeightForWidth(void)const " (?hasHeightForWidth@QWidget@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QBoxLayout::heightForWidth(int)const " (?heightForWidth@QBoxLayout@@UEBAHH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UEBAHH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QAbstractButton::hitButton(class QPoint const &)const " (?hitButton@QAbstractButton@@MEBA_NAEBVQPoint@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QLayout::indexOf(class QWidget *)const " (?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::initPainter(class QPainter *)const " (?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QLineEdit@@MEAAXPEAVQInputMethodEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QTextEdit@@MEAAXPEAVQInputMethodEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QLineEdit::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QLineEdit@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QTextEdit::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QTextEdit@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::insertFromMimeData(class QMimeData const *)" (?insertFromMimeData@QTextEdit@@MEAAXPEBVQMimeData@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QBoxLayout::invalidate(void)" (?invalidate@QBoxLayout@@UEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QLayout::isEmpty(void)const " (?isEmpty@QLayout@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::isSequential(void)const " (?isSequential@QSerialPort@@UEBA_NXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayoutItem * __cdecl QBoxLayout::itemAt(int)const " (?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QDialog::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QDialog@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLineEdit@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QPushButton@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QTextEdit@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QTextEdit@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayout * __cdecl QLayout::layout(void)" (?layout@QLayout@@UEAAPEAV1@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QTextEdit::loadResource(int,class QUrl const &)" (?loadResource@QTextEdit@@UEAA?AVQVariant@@HAEBVQUrl@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QBoxLayout::maximumSize(void)const " (?maximumSize@QBoxLayout@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QLineEdit::metaObject(void)const " (?metaObject@QLineEdit@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QPushButton::metaObject(void)const " (?metaObject@QPushButton@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QSerialPort::metaObject(void)const " (?metaObject@QSerialPort@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QTextEdit::metaObject(void)const " (?metaObject@QTextEdit@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QVBoxLayout::metaObject(void)const " (?metaObject@QVBoxLayout@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QWidget::metaObject(void)const " (?metaObject@QWidget@@UEBAPEBUQMetaObject@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __cdecl QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QBoxLayout::minimumHeightForWidth(int)const " (?minimumHeightForWidth@QBoxLayout@@UEBAHH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QBoxLayout::minimumSize(void)const " (?minimumSize@QBoxLayout@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QAbstractScrollArea::minimumSizeHint(void)const " (?minimumSizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QDialog::minimumSizeHint(void)const " (?minimumSizeHint@QDialog@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLineEdit::minimumSizeHint(void)const " (?minimumSizeHint@QLineEdit@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QPushButton::minimumSizeHint(void)const " (?minimumSizeHint@QPushButton@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QWidget::minimumSizeHint(void)const " (?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QTextEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QTextEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QTextEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QTextEdit@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::nativeEvent(class QByteArray const &,void *,long *)" (?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::nextCheckState(void)" (?nextCheckState@QAbstractButton@@MEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QDialog::open(void)" (?open@QDialog@@UEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::open(class QFlags<enum QIODevice::OpenModeFlag>)" (?open@QSerialPort@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QPaintEngine * __cdecl QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::paintEvent(class QPaintEvent *)" (?paintEvent@QLineEdit@@MEAAXPEAVQPaintEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::paintEvent(class QPaintEvent *)" (?paintEvent@QPushButton@@MEAAXPEAVQPaintEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::paintEvent(class QPaintEvent *)" (?paintEvent@QTextEdit@@MEAAXPEAVQPaintEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QLineEdit::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLineEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QPushButton::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QSerialPort::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QSerialPort@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QTextEdit::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QTextEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QVBoxLayout::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QLineEdit::qt_metacast(char const *)" (?qt_metacast@QLineEdit@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QPushButton::qt_metacast(char const *)" (?qt_metacast@QPushButton@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QSerialPort::qt_metacast(char const *)" (?qt_metacast@QSerialPort@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QTextEdit::qt_metacast(char const *)" (?qt_metacast@QTextEdit@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QVBoxLayout::qt_metacast(char const *)" (?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QWidget::qt_metacast(char const *)" (?qt_metacast@QWidget@@UEAAPEAXPEBD@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __cdecl QSerialPort::readData(char *,__int64)" (?readData@QSerialPort@@MEAA_JPEAD_J@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __cdecl QSerialPort::readLineData(char *,__int64)" (?readLineData@QSerialPort@@MEAA_JPEAD_J@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPaintDevice * __cdecl QWidget::redirected(class QPoint *)const " (?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QDialog::reject(void)" (?reject@QDialog@@UEAAXXZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QDialog::resizeEvent(class QResizeEvent *)" (?resizeEvent@QDialog@@MEAAXPEAVQResizeEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::resizeEvent(class QResizeEvent *)" (?resizeEvent@QTextEdit@@MEAAXPEAVQResizeEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::scrollContentsBy(int,int)" (?scrollContentsBy@QTextEdit@@MEAAXHH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QBoxLayout::setGeometry(class QRect const &)" (?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QDialog::setVisible(bool)" (?setVisible@QDialog@@UEAAX_N@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QWidget::setVisible(bool)" (?setVisible@QWidget@@UEAAX_N@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QAbstractScrollArea::setupViewport(class QWidget *)" (?setupViewport@QAbstractScrollArea@@UEAAXPEAVQWidget@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPainter * __cdecl QWidget::sharedPainter(void)const " (?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QDialog::showEvent(class QShowEvent *)" (?showEvent@QDialog@@MEAAXPEAVQShowEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::showEvent(class QShowEvent *)" (?showEvent@QTextEdit@@MEAAXPEAVQShowEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::showEvent(class QShowEvent *)" (?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QAbstractScrollArea::sizeHint(void)const " (?sizeHint@QAbstractScrollArea@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QBoxLayout::sizeHint(void)const " (?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QDialog::sizeHint(void)const " (?sizeHint@QDialog@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLineEdit::sizeHint(void)const " (?sizeHint@QLineEdit@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QPushButton::sizeHint(void)const " (?sizeHint@QPushButton@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QWidget::sizeHint(void)const " (?sizeHint@QWidget@@UEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSpacerItem * __cdecl QLayoutItem::spacerItem(void)" (?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayoutItem * __cdecl QBoxLayout::takeAt(int)" (?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::timerEvent(class QTimerEvent *)" (?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::timerEvent(class QTimerEvent *)" (?timerEvent@QTextEdit@@MEAAXPEAVQTimerEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QAbstractScrollArea::viewportEvent(class QEvent *)" (?viewportEvent@QAbstractScrollArea@@MEAA_NPEAVQEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QSize __cdecl QAbstractScrollArea::viewportSizeHint(void)const " (?viewportSizeHint@QAbstractScrollArea@@MEBA?AVQSize@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::waitForBytesWritten(int)" (?waitForBytesWritten@QSerialPort@@UEAA_NH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QSerialPort::waitForReadyRead(int)" (?waitForReadyRead@QSerialPort@@UEAA_NH@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QTextEdit::wheelEvent(class QWheelEvent *)" (?wheelEvent@QTextEdit@@MEAAXPEAVQWheelEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QWidget * __cdecl QLayoutItem::widget(void)" (?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ)
+     1>xfserialport.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __cdecl QSerialPort::writeData(char const *,__int64)" (?writeData@QSerialPort@@MEAA_JPEBD_J@Z)
+     1>moc_xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual void * __cdecl QDialog::qt_metacast(char const *)" (__imp_?qt_metacast@QDialog@@UEAAPEAXPEBD@Z)，该符号在函数 "public: virtual void * __cdecl xfserialport::qt_metacast(char const *)" (?qt_metacast@xfserialport@@UEAAPEAXPEBD@Z) 中被引用
+     1>moc_xfserialport.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual int __cdecl QDialog::qt_metacall(enum QMetaObject::Call,int,void * *)" (__imp_?qt_metacall@QDialog@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)，该符号在函数 "public: virtual int __cdecl xfserialport::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@xfserialport@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z) 中被引用
+     1>moc_xfserialport.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: static struct QMetaObject const QDialog::staticMetaObject" (__imp_?staticMetaObject@QDialog@@2UQMetaObject@@B)
+     1>debug\\XFSerialPort.exe : fatal error LNK1120: 211 个无法解析的外部命令
+     1>已完成生成项目“F:\Qt\project\XFSerialPort\XFSerialPort.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50
